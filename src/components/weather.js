@@ -5,7 +5,7 @@ const Weather = props => (
       { props.city &&
       <div>
         <p>Location: {props.city}, {props.country}</p>
-        <p>Temperature: {props.temp}</p>
+        <p>Temperature: {props.temp} *C</p>
         <p>Pressure: {props.pressure}</p>
         <p>Sunset: {props.sunset}</p>
       </div>
